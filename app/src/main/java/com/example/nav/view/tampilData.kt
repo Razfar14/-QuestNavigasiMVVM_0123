@@ -66,7 +66,14 @@ fun TampilData(
                     )
                 }
             }
-
+            Button(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(dimensionResource(id = R.dimen.padding_medium)),
+                onClick = onBackBtnClick
+            ) {
+                Text(stringResource(id = R.string.back))
+            }
         }
     }
 }
