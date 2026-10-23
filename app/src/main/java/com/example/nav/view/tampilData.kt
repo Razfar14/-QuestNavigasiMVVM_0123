@@ -50,6 +50,17 @@ fun TampilData(
                     dimensionResource(id = R.dimen.padding_small)
                 )
             ) {
+                items.forEach { item ->
+                    Column {
+                        Text(
+                            text = item.first.uppercase(),
+                            fontWeight = FontWeight.Bold
+                        )
+                        Text(
+                            text = item.second,
+                            fontWeight = FontWeight.Bold
+                        )
+                    }
 
         }
     }
