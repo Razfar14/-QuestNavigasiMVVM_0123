@@ -25,6 +25,11 @@ import com.example.nav.R
 fun TampilData(
     onBackBtnClick: () -> Unit = {}
 ) {
+    val items = listOf(
+        Pair(stringResource(id = R.string.nama_lengkap), "Contoh Nama"),
+        Pair(stringResource(id = R.string.jenis_kelamin), "Laki-laki"),
+        Pair(stringResource(id = R.string.alamat), "Ngawi")
+    )
 
     )
         }
