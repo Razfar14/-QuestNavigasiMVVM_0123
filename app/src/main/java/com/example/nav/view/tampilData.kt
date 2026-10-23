@@ -61,6 +61,11 @@ fun TampilData(
                             fontWeight = FontWeight.Bold
                         )
                     }
+                    HorizontalDivider(
+                        thickness = dimensionResource(id = R.dimen.thickness_divider)
+                    )
+                }
+            }
 
         }
     }
